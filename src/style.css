@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme {
+    --font-logo: "Germania One", system-ui;
+    --font-txt: "IBM Plex Mono", sans-serif;
+}

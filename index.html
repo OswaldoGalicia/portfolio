@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./src/img/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Germania+One&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Os Galicia</title>
+  </head>
+  <body class="bg-[#68181f]">
+    
+    <header class="backdrop-blur-2xl fixed top-0 left-0 z-100 flex flex-col justify-around items-center w-full mx-auto shadow-xl/30 py-3 xl:flex-row ">
+      <div class="flex flex-row items-center justify-around gap-4 ">
+        <img src="./src/img/logo.png" alt="Logo" width="80px" height="80px">
+        <h1 class="font-logo text-6xl text-white">Os Galicia</h1>
+      </div>
+      <nav class=""> 
+        <ul class="flex flex-col md:flex-row justify-around items-center gap-4 font-txt text-2xl text-white *:hover:bg-orange-100 *:hover:text-black *:rounded-md *:px-4 *:py-2 *:hover:transition *:duration-300 *:ease-in">
+          <li>
+            <a href="#">
+              Trabajos
+            </a>
+          </li>
+          <li>
+            <button id="cv" class="flex flex-row items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="40"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#FFFFFF"
+                stroke-width="1.75"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M13 7h-6l4 5l-4 5h6l4 -5z" />
+              </svg>
+              Currículum
+            </button>  
+            <div id="cvMenu" class="hidden flex flex-col absolute mt-2 w-48 *:p-4 gap-4 bg-red-900 border border-white text-white rounded-lg transition-all origin-top-right *:hover:bg-red-800">
+              <a href="./src/docs/GAFG_CV_2025-2.pdf" target="_blank" class="flex flex-row gap-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#FFFFFF"
+                  stroke-width="1"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                  <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                </svg>
+                Esp
+              </a>
+              <a href="./src/docs/GAFG_resume_2025-2.pdf" class="flex flex-row gap-2">
+                
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#FFFFFF"
+                  stroke-width="1"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                  <path d="M3.6 9h16.8" />
+                  <path d="M3.6 15h16.8" />
+                  <path d="M11.5 3a17 17 0 0 0 0 18" />
+                  <path d="M12.5 3a17 17 0 0 1 0 18" />
+                </svg>
+                Eng
+              </a>
+            </div>
+          </li>
+          <li>
+            <a href="#">
+              Más sobre mí
+            </a>
+          </li>
+          <li class="bg-orange-100 text-black font-semi font-txt">
+            <a href="#">
+              ¡Contáctame!
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class=" mt-85 md:mt-40 xl:mt-26"></div>
+    <section class="w-full absolute mt-10">
+      <div class="relative w-9/10 mx-auto">
+        <div class="w-full h-auto absolute top-1/2 left-0 z-10 flex justify-center items-center mt-7 ">
+          <img src="./src/img/fotoPrincipal.webp" alt="Foto del autor" class="size-[580px] h-auto">
+        </div>
+        <div class=" w-full flex flex-col justify-center items-center *:font-logo *:text-7xl *:sm:text-9xl *:tracking-widest absolute top-1/2 left-0 leading-8">
+          <span class="text-white z-15">PORTAFOLIO</span>
+          <span class=" text-transparent" style="-webkit-text-stroke: 2px #efdbbf; ">PORTAFOLIO</span>
+          <span class=" text-transparent" style="-webkit-text-stroke: 2px #efdbbf; ">PORTAFOLIO</span>
+          <span class=" text-transparent" style="-webkit-text-stroke: 2px #efdbbf; ">PORTAFOLIO</span>
+          <span class=" text-transparent" style="-webkit-text-stroke: 2px #efdbbf; ">PORTAFOLIO</span>
+        </div>
+      </div>
+      <div class="bg-[#121211] h-72 mt-140 text-white flex flex-col sm:flex-row pr-10 md:pr-0 justify-center items-end pb-20 gap-8">
+        <a href="https://www.linkedin.com/in/oswaldogaliciaflores/" target="_blank" class="flex flex-row gap-3 items-center hover:bg-gray-950 px-1.5 py-0.5 rounded-lg">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="40"
+            height="40"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#FFFFFF"
+            stroke-width="1.25"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            >
+            <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+            <path d="M8 11l0 5" />
+            <path d="M8 8l0 .01" />
+            <path d="M12 16l0 -5" />
+            <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+          </svg>
+          Linkedin
+        </a>
+
+        <a href="https://github.com/OswaldoGalicia" target="_blank" class="flex flex-row gap-3 items-center hover:bg-gray-950 px-1.5 py-0.5 rounded-lg">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="40"
+            height="40"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#FFFFFF"
+            stroke-width="1.25"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            >
+            <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+          </svg>
+          GitHub
+        </a>
+
+        <a href="https://github.com/OswaldoGalicia" target="_blank" class="flex flex-row gap-3 items-center hover:bg-gray-950 px-1.5 py-0.5 rounded-lg">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="40"
+            height="40"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#FFFFFF"
+            stroke-width="1.25"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            >
+            <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+            <path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1" />
+          </svg>
+          WhatsApp
+        </a>
+      </div>
+    </section>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
