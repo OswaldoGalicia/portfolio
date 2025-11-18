@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
-  "homepage": "https://OswaldoGalicia.github.io/portfolio/",
-  "private": false,
+  "homepage": "osgalicia.xyz",
+  "private": true,
   "version": "0.0.5",
   "type": "module",
   "scripts": {
