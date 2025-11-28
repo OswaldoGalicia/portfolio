@@ -1,8 +1,8 @@
 1:"$Sreact.fragment"
-2:I[48578,["/_next/static/chunks/6e31c7cc37abfb43.js","/_next/static/chunks/2da589e92d48bea3.js"],"ViewportBoundary"]
-4:I[48578,["/_next/static/chunks/6e31c7cc37abfb43.js","/_next/static/chunks/2da589e92d48bea3.js"],"MetadataBoundary"]
+2:I[97367,["/_next/static/chunks/42879de7b8087bc9.js"],"ViewportBoundary"]
+4:I[97367,["/_next/static/chunks/42879de7b8087bc9.js"],"MetadataBoundary"]
 5:"$Sreact.suspense"
-7:I[11664,["/_next/static/chunks/6e31c7cc37abfb43.js","/_next/static/chunks/2da589e92d48bea3.js"],"IconMark"]
-0:{"buildId":"MsnL4DI-fiToILnySUczn","rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":"$@3"}],["$","div",null,{"hidden":true,"children":["$","$L4",null,{"children":["$","$5",null,{"name":"Next.Metadata","children":"$@6"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"loading":null,"isPartial":false}
+7:I[27201,["/_next/static/chunks/42879de7b8087bc9.js"],"IconMark"]
+0:{"buildId":"yYMTzwybRYFfDem-BsN1x","rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":"$@3"}],["$","div",null,{"hidden":true,"children":["$","$L4",null,{"children":["$","$5",null,{"name":"Next.Metadata","children":"$@6"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"loading":null,"isPartial":false}
 3:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 6:[["$","title","0",{"children":"Os Galicia"}],["$","meta","1",{"name":"description","content":"Portafolio de trabajos de Os Galicia"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L7","3",{}]]
