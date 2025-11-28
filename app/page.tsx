@@ -1,4 +1,3 @@
-import Image from "next/image"
 
 export default function Home() {
   return (
@@ -7,7 +6,7 @@ export default function Home() {
       <section className="w-full absolute mt-10">
         <div className="relative w-9/10 mx-auto">
             <div className="w-full h-auto absolute top-1/2 left-0 z-10 flex justify-center items-center mt-7 ">
-              <Image width={580} height={580} src="/img/fotoPrincipal.webp" alt="Foto del autor" className="size-[580px] h-auto" />
+              <img width={580} height={580} src="/img/fotoPrincipal.webp" alt="Foto del autor" className="size-[580px] h-auto" />
             </div>
             <div className=" w-full flex flex-col justify-center items-center *:font-logo *:text-7xl *:sm:text-9xl *:tracking-widest absolute top-1/2 left-0 leading-8">
               <span className="text-white z-15">PORTAFOLIO</span>
