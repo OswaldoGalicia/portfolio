@@ -29,9 +29,9 @@ export default function Navbar(){
         <nav className=""> 
             <ul className="flex flex-col md:flex-row justify-around items-center gap-4 font-txt text-2xl text-white *:hover:bg-orange-100 *:hover:text-black *:rounded-md *:px-4 *:py-2 *:hover:transition *:duration-300 *:ease-in">
             <li>
-                <a href="#">
+                <Link href="/Retos">
                 {"{ Retos... }"}
-                </a>
+                </Link>
             </li>
             <li>
                 <a href="#">
