@@ -1,65 +1,80 @@
-import Image from "next/image";
+import Image from "next/image"
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <div>
+      <div className=" mt-85 md:mt-40 xl:mt-26"></div>
+      <section className="w-full absolute mt-10">
+        <div className="relative w-9/10 mx-auto">
+            <div className="w-full h-auto absolute top-1/2 left-0 z-10 flex justify-center items-center mt-7 ">
+              <Image width={580} height={580} src="/img/fotoPrincipal.webp" alt="Foto del autor" className="size-[580px] h-auto" />
+            </div>
+            <div className=" w-full flex flex-col justify-center items-center *:font-logo *:text-7xl *:sm:text-9xl *:tracking-widest absolute top-1/2 left-0 leading-8">
+              <span className="text-white z-15">PORTAFOLIO</span>
+              <span className=" text-transparent" style={{ WebkitTextStroke: '2px #efdbbf' }}>PORTAFOLIO</span>
+              <span className=" text-transparent" style={{ WebkitTextStroke: '2px #efdbbf' }}>PORTAFOLIO</span>
+              <span className=" text-transparent" style={{ WebkitTextStroke: '2px #efdbbf' }}>PORTAFOLIO</span>
+              <span className=" text-transparent" style={{ WebkitTextStroke: '2px #efdbbf' }}>PORTAFOLIO</span>
+            </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+        <div className="bg-[#121211] h-72 mt-140 text-white flex flex-col sm:flex-row pr-10 md:pr-0 justify-center items-end pb-20 gap-8">
+            <a href="https://www.linkedin.com/in/oswaldogaliciaflores/" target="_blank" className="flex flex-row gap-3 items-center hover:bg-gray-950 px-1.5 py-0.5 rounded-lg">
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="40"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#FFFFFF"
+                strokeWidth="1.25"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                >
+                <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+                <path d="M8 11l0 5" />
+                <path d="M8 8l0 .01" />
+                <path d="M12 16l0 -5" />
+                <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+            </svg>
+            Linkedin
+            </a>
+
+            <a href="https://github.com/OswaldoGalicia" target="_blank" className="flex flex-row gap-3 items-center hover:bg-gray-950 px-1.5 py-0.5 rounded-lg">
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="40"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#FFFFFF"
+                strokeWidth="1.25"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                >
+                <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+            </svg>
+            GitHub
+            </a>
+
+            <a href="https://github.com/OswaldoGalicia" target="_blank" className="flex flex-row gap-3 items-center hover:bg-gray-950 px-1.5 py-0.5 rounded-lg">
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="40"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#FFFFFF"
+                strokeWidth="1.25"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                >
+                <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+                <path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1" />
+            </svg>
+            WhatsApp
+            </a>
         </div>
-      </main>
+        </section>
     </div>
   );
 }
