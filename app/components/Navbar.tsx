@@ -23,7 +23,7 @@ export default function Navbar(){
     return(
         <header className="backdrop-blur-2xl fixed top-0 left-0 z-100 flex flex-col justify-around items-center w-full mx-auto shadow-xl/30 py-3 xl:flex-row ">
             <div className="flex flex-row items-center justify-around gap-4 ">
-                <img src="/img/logo.png" alt="Logo" width={80} height={80} />
+                <img src="./img/logo.png" alt="Logo" width={80} height={80} />
                 <h1 className="font-logo text-6xl text-white">Os Galicia</h1>
             </div>
         <nav className=""> 
